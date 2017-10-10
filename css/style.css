@@ -366,8 +366,19 @@ header #about_me #slider_1:before
 {
 	/*background-color: blue;*/
 	padding-bottom: 67px;
+	position: relative;
 }
 
+#portfolio::before {
+    content: "";
+    width: 305px;
+    height: 307px;
+    background: url(../img/work_part_2.png);
+    display: inline-block;
+    position: absolute;
+    top: -163px;
+    left: -305px;
+}
 #portfolio h2
 {
 	font-size: 48px;
