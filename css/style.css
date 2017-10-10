@@ -10,11 +10,16 @@
 	font-family: 'Neris Black', arial;
 }
 
+html { overflow-x: hidden; }
+
 .container
 {
 	margin: 0 auto;
 	max-width: 1174px;
 	/*background:orange;*/
+	background-image: url(../img/contact_part_1.png) , url(../img/hi.png) ,  url(../img/services.png) , url(../img/work_part_1.png) ;;
+    background-repeat: no-repeat;
+    background-position: bottom right , 0px -215px , 208px 730px , 0px 2473px;
 }
 
 .left
@@ -108,9 +113,21 @@ header ul li:last-child
 #about_me
 {
 	/*background: orange;*/
-	background-image: url(../img/i.jpg);
+	background-image: url(../img/i.jpg) ;
     background-repeat: no-repeat;
     background-position: top right;
+    position: relative;
+}
+
+header #about_me::after {
+    content: "";
+    width: 204px;
+    height: 1322px;
+    display: inline-block;
+    position: absolute;
+    background: url(../img/hi_part_2.png);
+    top: -337px;
+    left: -204px;
 }
 
 #about_me h2
@@ -219,6 +236,19 @@ header #about_me #slider_1:before
 {
 	/*background:green;*/
 	padding-bottom: 93px;
+	position: relative;
+}
+
+#wedding_photography::after {
+    content: "";
+    width: 317px;
+    height: 372px;
+    background: url(../img/services_part_2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: -113px;
+    right: -308px;
 }
 
 #wedding_photography h3 {
@@ -598,6 +628,7 @@ footer
 {
 	/*background-color: orange;*/
 	padding-bottom: 150px;
+	position: relative;
 }
 
 footer form
@@ -638,4 +669,18 @@ footer address
 {
 	margin-right: 425px;
 	margin-top: 157px;
+}
+
+footer:after
+{
+	content: "";
+	width: 400px;
+	height: 178px;
+	background-image: url(../img/contact_part_2.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: inline-block;
+    right: -399px;
+    position: absolute;
+    bottom: 1.5px;
 }
