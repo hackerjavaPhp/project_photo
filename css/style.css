@@ -1,0 +1,641 @@
+/*download font*/
+@import url(http://allfont.ru/allfont.css?fonts=neris-thin);
+@import url(http://allfont.ru/allfont.css?fonts=neris-black);
+@import url(http://allfont.ru/allfont.css?fonts=neris-semibold);
+
+*
+{
+	margin:0;
+	padding:0;
+	font-family: 'Neris Black', arial;
+}
+
+.container
+{
+	margin: 0 auto;
+	max-width: 1174px;
+	/*background:orange;*/
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.clear
+{
+	clear: both;
+}
+
+/* font class */
+
+.neris
+{
+	font-family: 'Neris Thin' ;
+}
+
+.neris_semi
+{
+	font-family: 'Neris SemiBold';
+}
+
+/*++++++++++++++++++++++++header+++++++++++++++++++++++++*/
+
+header
+{
+	/*background: green;*/
+}
+
+header nav
+{
+	/*background: red;*/
+	padding-top: 14px;
+	padding-bottom: 48px;
+}
+
+header .logo
+{
+	position: relative;
+	display: block;
+	position: relative;
+}
+
+header .logo:after
+{
+	content: "";
+	position: absolute;
+	display: inline-block;
+	width: 50px;
+	height: 1px;
+	background-color:black;
+	bottom: 9px;
+	left: 87px
+
+}
+
+header span 
+{
+	/*padding-top:12px;*/
+	margin-left: 43px;
+	font-size: 26.4px;
+	font-weight: 100;
+}
+
+header ul
+{
+	padding-top:8px;
+}
+
+header ul li 
+{
+	float: left;
+	margin-right: 31px;
+	list-style-type: none;
+}
+
+header ul li:last-child
+{
+	margin-right:0px;
+}
+
+/*++++++++++++++++++++++++header -> about_me+++++++++++++++++++++++++*/
+
+#about_me
+{
+	/*background: orange;*/
+	background-image: url(../img/i.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#about_me h2
+{
+	padding-top: 47px;
+    padding-bottom: 52px;
+	font-size: 60px;
+}
+
+#about_me p
+{
+	max-width: 542px;
+	font-size: 16px;
+}
+
+#about_me .link
+{
+	margin-top: 63px;
+	position: relative;
+	/*background-color: red;*/
+}
+
+#about_me .link::after
+{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 104px;
+	background:url(../img/line.png);
+	bottom: -110px;
+	left: 222.5px;
+}
+
+#about_me .link button
+{
+	background-color: #fff;
+	width: 155px;
+	height: 50px;
+	border: 1px solid black;
+	font-size: 16px;
+	margin-right: 32px;
+}
+
+#about_me .link a
+{
+	color: black;
+	text-decoration: none;
+}
+
+header #about_me #slider_1
+{
+	width: 479px;
+	height: 270px;
+	background-color: #fff;
+	margin-right: 202px;
+	margin-bottom: 143px;
+	position: relative;
+}
+
+header #about_me #slider_1:before
+{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 104px;
+	background:url(../img/line.png);
+	bottom: -104px;
+	left: 95px;
+}
+
+#about_me #slider_1 img
+{
+	margin:0px 18px;
+	margin-top:21px;
+}
+
+#about_me #slider_1 .beack,
+#about_me #slider_1 .next 
+{
+    width: 54px;
+    height: 54px;
+    background: black;
+    position: absolute;
+    top: 109px;
+    background-image: url(../img/beack.png);
+    background-repeat: no-repeat;
+    background-position: 16px 10px;
+}
+
+#about_me #slider_1 .next
+{
+	right: -17px;
+	background-image: url(../img/next.png);
+    background-repeat: no-repeat;
+    background-position: 22px 10px;
+}
+
+#about_me #slider_1 .beack
+{
+	left: -16px;
+}
+
+/*++++++++++++++++++++#wedding_photography+++++++++++++++++*/
+
+#wedding_photography
+{
+	/*background:green;*/
+	padding-bottom: 93px;
+}
+
+#wedding_photography h3 {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 36px;
+}
+
+#wedding_photography p
+{
+    max-width: 420px;
+    margin-left: 51px;
+    padding-bottom: 23px;
+    font-size: 16px;
+
+}
+
+#wedding_photography .link_2
+{
+	/*background:blue;*/
+	margin-left: 49px;
+	width: 319px;
+	position: relative;
+	margin-top: 23px;
+}
+
+#wedding_photography .link_2:after
+{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 104px;
+	background:url(../img/line.png);
+	bottom: -110px;
+	left: 213.5px;
+}
+
+#wedding_photography button
+{
+	background-color: #fff;
+	width: 155px;
+	height: 50px;
+	border: 1px solid black;
+	font-size: 16px;
+	margin-right: 32px;
+}
+
+#wedding_photography .link_2 a
+{
+	color: black;
+	text-decoration: none;
+}
+
+/*++++++++++++++++++++#Events+++++++++++++++++*/
+
+#events
+{
+	/*background-color: red;*/
+	padding-bottom: 85px;
+}
+
+#events h2
+{
+	padding-top: 68px;
+	font-size: 48px;
+	padding-bottom: 56px;
+}
+
+#events p
+{
+	max-width: 500px;
+}
+
+
+#events .link_2
+{
+	/*background:blue;*/
+	/*margin-left: 49px;*/
+	width: 319px;
+	position: relative;
+	margin-top: 23px;
+}
+
+#events .link_2:after
+{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 104px;
+	background:url(../img/line.png);
+	bottom: -110px;
+	left: 213.5px;
+}
+
+#events button
+{
+	background-color: #fff;
+	width: 155px;
+	height: 50px;
+	border: 1px solid black;
+	font-size: 16px;
+	margin-right: 32px;
+}
+
+#events .link_2 a
+{
+	color: black;
+	text-decoration: none;
+}
+
+/*+++++++++++++++++++++Portfolio++++++++++++++++++++++++++*/
+
+#portfolio
+{
+	/*background-color: blue;*/
+	padding-bottom: 67px;
+}
+
+#portfolio h2
+{
+	font-size: 48px;
+	padding:0px;
+	padding-top: 15px;
+	padding-bottom: 70px;
+}
+
+#portfolio .links
+{
+	padding-bottom: 39px;
+}
+
+#portfolio .links span 
+{
+    display: inline-block;
+    padding: 11.5px 17px;
+    color: black;
+    margin-right: 52px;
+    font-size: 18px;
+    transition: all .7s;
+}
+
+#portfolio .links span:first-child 
+{
+	background-color: black;
+	color:white;
+}
+
+#portfolio .links span:hover
+{
+	background-color: black;
+	color:white;
+	cursor: pointer;
+}
+
+/*--slider_2--*/
+
+#portfolio #slide_2
+{
+	/*background-color: red;*/
+	position: relative;
+}
+
+#portfolio #slide_2 img
+{
+	margin-right: 28.5px;
+}
+
+#portfolio #slide_2 img:last-child
+{
+	margin-right: 0px;
+}
+
+
+
+#portfolio #slide_2 .beack,
+#portfolio #slide_2 .next 
+{
+    width: 54px;
+    height: 54px;
+    background: black;
+    position: absolute;
+    top: 109px;
+    background-image: url(../img/beack.png);
+    background-repeat: no-repeat;
+    background-position: 16px 10px;
+    cursor: pointer;
+}
+
+#portfolio #slide_2 .next
+{
+	right: -80px;
+	background-image: url(../img/next.png);
+    background-repeat: no-repeat;
+    background-position: 22px 10px;
+}
+
+#portfolio #slide_2  .beack
+{
+	left:-80px;
+}
+
+/*++++++++++++++++++++++reviews++++++++++++++++++++++++++*/
+
+
+#reviews
+{
+	/*background: green;*/
+}
+
+#reviews nav
+{
+	/*background: red;*/
+	padding-top: 14px;
+	/*padding-bottom: 48px;*/
+}
+
+#reviews .logo
+{
+	position: relative;
+	display: block;
+	position: relative;
+}
+
+#reviews .logo:after
+{
+	content: "";
+	position: absolute;
+	display: inline-block;
+	width: 50px;
+	height: 1px;
+	background-color:black;
+	bottom: 9px;
+	left: 87px
+
+}
+
+#reviews span 
+{
+	/*padding-top:12px;*/
+	margin-left: 43px;
+	font-size: 26.4px;
+	font-weight: 100;
+}
+
+#reviews ul
+{
+	padding-top:8px;
+}
+
+#reviews ul li 
+{
+	float: left;
+	margin-right: 31px;
+	list-style-type: none;
+}
+
+#reviews ul li:last-child
+{
+	margin-right:0px;
+}
+
+/*++++++++++++++++++++++++#reviews -> about_me+++++++++++++++++++++++++*/
+
+#reviews #about_me
+{
+	/*background: orange;*/
+	background-image: url(../img/girl.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#reviews #about_me h2
+{
+	padding-top: 47px;
+    padding-bottom: 52px;
+	font-size: 60px;
+}
+
+#reviews #about_me p
+{
+	max-width: 542px;
+	font-size: 16px;
+}
+
+#reviews #about_me .link
+{
+	margin-top: 63px;
+	position: relative;
+	/*background-color: red;*/
+}
+
+#reviews #about_me .link::after
+{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 104px;
+	background:url(../img/line.png);
+	bottom: -110px;
+	left: 213.5px;
+}
+
+#reviews #about_me .link button
+{
+	background-color: #fff;
+	width: 155px;
+	height: 50px;
+	border: 1px solid black;
+	font-size: 16px;
+	margin-right: 32px;
+}
+
+#reviews #about_me .link a
+{
+	color: black;
+	text-decoration: none;
+}
+
+#reviews #about_me #slider_1
+{
+	width: 479px;
+	height: 270px;
+	background-color: #fff;
+	margin-right: 202px;
+	/*margin-bottom: 143px;*/
+	position: relative;
+	bottom: 43px;
+}
+/*
+#reviews #about_me #slider_1:before
+{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 104px;
+	background:url(../img/line.png);
+	bottom: -104px;
+	left: 95px;
+}
+*/
+#reviews #about_me #slider_1 img
+{
+	margin:0px 18px;
+	margin-top:21px;
+}
+
+#reviews #slider_1 .beack,
+#reviews #slider_1 .next 
+{
+    width: 54px;
+    height: 54px;
+    background: black;
+    position: absolute;
+    top: 109px;
+    background-image: url(../img/beack.png);
+    background-repeat: no-repeat;
+    background-position: 16px 10px;
+}
+
+#reviews #slider_1 .next
+{
+	right: -17px;
+	background-image: url(../img/next.png);
+    background-repeat: no-repeat;
+    background-position: 22px 10px;
+}
+
+#reviews #slider_1 .beack
+{
+	left: -16px;
+}
+
+/*+++++++++++++footer+++++++++++++++*/
+
+footer
+{
+	/*background-color: orange;*/
+	padding-bottom: 150px;
+}
+
+footer form
+{
+	width: 372px;
+
+}
+
+footer form input
+{
+	height: 34px;
+	margin-bottom: 30px;
+	border: 0px;
+	border-bottom: 1px solid black;
+	font-size: 18px;
+}
+
+footer form p
+{
+	font-size: 48px;
+	padding-bottom: 76px;
+}
+
+footer form input
+{
+	width: 100%;
+}
+
+footer form button
+{
+	background-color: white;
+	border: 1px solid black;
+	padding:10px 15px;
+	font-size: 18px;
+}
+
+footer address
+{
+	margin-right: 425px;
+	margin-top: 157px;
+}
