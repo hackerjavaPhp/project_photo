@@ -268,5 +268,116 @@
 	}
 }
 
-/* slider */
+/* slider_1*/
 
+@media screen and (max-width: 540px)
+{
+
+	header #about_me #slider_1 {
+	    width: 100%;
+	    /*background-color: red;*/
+	    height: 100%;
+	    /* margin-right: 202px; */
+	    margin: 0 auto;
+	    /* margin-bottom: 143px; */
+	    position: relative;
+	    float: none;
+	}
+
+	header #about_me #slider_1 img
+	{
+		width: 100%;
+		margin: 0px;
+	}
+
+	#about_me #slider_1 .next {
+	    display: none;
+	 }
+
+	 #about_me #slider_1 .beack
+	 {
+	 	display: none;
+	 }
+
+}
+
+
+/* slider_2*/
+
+@media screen and (max-width: 640px)
+{
+	#portfolio #slide_2 img 
+	{
+	    width: 80%;
+	    margin: 0px 10%;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	#portfolio #slide_2 img 
+	{
+	    width: 90%;
+	    margin: 0px 5%;
+	}
+}
+
+/* slider_3*/
+
+@media screen and (max-width: 540px)
+{
+
+	#reviews #about_me #slider_1 {
+	    width: 100%;
+	    /*background-color: red;*/
+	    height: 100%;
+	    /* margin-right: 202px; */
+	    margin: 0 auto;
+	    /* margin-bottom: 143px; */
+	    position: relative;
+	    float: none;
+	}
+
+	#reviews #about_me #slider_1 img
+	{
+		width: 100%;
+		margin: 0px;
+	}
+
+	#about_me #slider_1 .next {
+	    display: none;
+	 }
+
+	 #about_me #slider_1 .beack
+	 {
+	 	display: none;
+	 }
+
+}
+
+
+/* form */
+
+@media screen and (max-width: 413px)
+{
+
+	footer form {
+	    width: 100%;
+	    margin: 0 auto;
+	    float: none !important;
+	    /*background: red;*/
+	    text-align: center;
+	}
+
+}
+
+/* options h2 */
+
+@media screen and (max-width: 400px)
+{
+	#about_me h2 {
+	    padding-top: 47px;
+	    padding-bottom: 52px;
+	    font-size: 56px;
+	}
+}
