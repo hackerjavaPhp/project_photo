@@ -46,7 +46,7 @@
 	    background-color: #fff;
 	    /* margin-right: 202px; */
 	    margin: 0 auto;
-	    margin-bottom: 143px;
+	    margin-bottom: 0px;
 	    position: relative;
 	    float: none;
 	}
@@ -66,7 +66,7 @@
 	}
 
 	#wedding_photography p {
-	    max-width: 595px;
+	    max-width: 750px;
 	    margin:0 auto;
 	    padding-bottom: 23px;
 	    font-size: 16px;
@@ -91,6 +91,18 @@
 	    float: none;
 	}
 
+	#wedding_photography {
+	    /* background: green; */
+	     padding-bottom: 0px !important; 
+	    position: relative;
+	}
+
+	#wedding_photography::after
+	{
+		content: "";
+		display: none;
+	}
+
 	/*+++++++#events++++++++*/
 	#events img
 	{
@@ -106,7 +118,7 @@
 	}
 
 	#events p {
-	    max-width: 500px;
+	    max-width: 750px;
 	    text-align: center;
 	    float: none;
 	    margin: 0 auto;
@@ -174,6 +186,11 @@
 	     float: none;
 	}
 
+	#reviews #about_me p {
+	    max-width: 750px;
+	    font-size: 16px;
+	}
+
 	/*++++++++footer++++++++*/
 
 	footer form {
@@ -186,4 +203,70 @@
 	{
 		display: none;
 	}
+
+	footer:after
+	{
+		content: "";
+		display: none;
+	}
 }
+
+
+@media screen and (max-width: 1090px)
+{
+	nav
+	{
+		/*background: red;*/
+	}
+
+
+	header .logo {
+	    position: relative;
+	    display: block;
+	    float: none !important;
+	    /*background: blue;*/
+	    width: 264px;
+    	margin: 0 auto;
+	}
+
+
+	header span {
+    /* padding-top: 12px; */
+	    margin-left:0px;
+	    font-size: 26.4px;
+	    font-weight: 100;
+	    float: none !important;
+	    /*background: green;*/
+	  	display: block;
+	  	text-align: center;
+	}
+
+	header ul {
+    float: none !important;
+    /*background: purple;*/
+	}
+
+	header ul li
+	{
+		display: block;
+		/*background: blue;*/
+		float: none;
+		text-align: center;
+		margin-right: 0px;
+		font-size: 20px;
+	}
+
+	header #about_me #slider_1 {
+	    width: 479px;
+	    height: 270px;
+	    background-color: #fff;
+	    /* margin-right: 202px; */
+	    margin: 0 auto;
+	    /* margin-bottom: 143px; */
+	    position: relative;
+	    float: none;
+	}
+}
+
+/* slider */
+
