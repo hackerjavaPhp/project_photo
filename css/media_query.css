@@ -1,0 +1,189 @@
+@media screen and (max-width: 1174px)
+{
+
+	/* Turn off the background */
+	.container
+	{
+		background-image: none;
+	}
+
+	/*++++++++++++++#about_me+++++++++++++++*/
+
+	#about_me
+	{
+		background-image: none;
+	}
+
+	/* text-center */
+	#about_me h2 , 
+	#about_me p
+	{
+		text-align: center;
+		margin:0 auto;
+		max-width: 800px;
+	}
+
+	/* link */
+
+	#about_me .link::after {
+	    content: "";
+	    display: none;
+	}
+
+	#about_me .link {
+    margin-top: 63px;
+    position: relative;
+    /*background-color: red;*/
+    max-width: 316px;
+    margin: 32px auto;
+	}
+
+
+	/* slider_1 */
+	header #about_me #slider_1 {
+	    width: 479px;
+	    height: 270px;
+	    background-color: #fff;
+	    /* margin-right: 202px; */
+	    margin: 0 auto;
+	    margin-bottom: 143px;
+	    position: relative;
+	    float: none;
+	}
+
+	/* line after || before */
+	header #about_me #slider_1:before {
+	    content: "";
+	    display: none;
+	}
+
+	/*+++++++++#wedding_photography+++++++++*/
+
+	#wedding_photography img
+	{
+		float: none;
+		display: none;
+	}
+
+	#wedding_photography p {
+	    max-width: 595px;
+	    margin:0 auto;
+	    padding-bottom: 23px;
+	    font-size: 16px;
+	    text-align: center;
+	    float: none;
+	}
+
+	#wedding_photography .link_2:after
+	{
+		content: "";
+		display: none;
+	}
+
+	#wedding_photography .link_2 {
+	    /*background: blue;*/
+	    /* margin-left: 49px; */
+	    width: 296px;
+	    position: relative;
+	    margin-top: 23px;
+	    margin: 0au;
+	    margin: 0 auto;
+	    float: none;
+	}
+
+	/*+++++++#events++++++++*/
+	#events img
+	{
+		display: none;
+	}
+
+	#events h2 {
+	    padding-top: 68px;
+	    font-size: 48px;
+	    padding-bottom: 56px;
+	    float: none;
+	    text-align: center;
+	}
+
+	#events p {
+	    max-width: 500px;
+	    text-align: center;
+	    float: none;
+	    margin: 0 auto;
+	}
+
+	#events .link_2:after
+	{
+		content: "";
+		display: none;
+	}
+
+	#events .link_2 {
+	    /*background: blue;*/
+	    /* margin-left: 49px; */
+	    width: 291px;
+	    position: relative;
+	    margin-top: 23px;
+	    margin: 0 auto;
+	    float: none;
+	    margin-top: 33px;
+	}	
+
+	/*+++++++++++++++#portfolio+++++++++++++*/
+	#portfolio h2
+	{
+		text-align: center;
+	}
+
+	#portfolio .links span {
+	    display: block;
+	    padding: 11.5px 17px;
+	    color: black;
+	    margin-right: 52px;
+	    font-size: 18px;
+	    transition: all .7s;
+	    text-align: center;
+	}
+
+	#portfolio .links span
+	{
+		margin-right: 0px;
+	}
+
+	#portfolio #slide_2 img
+	{
+		width: 33%;
+		margin: 0px;
+	}
+
+	/*+++++++++#reviews+++++++++++*/
+
+	#reviews #about_me {
+	    /* background: orange; */
+	    background: none;
+	}
+
+	#reviews #about_me #slider_1 {
+	    width: 479px;
+	    height: 270px;
+	    background-color: #fff;
+	    margin:0 auto;
+	    /* margin-bottom: 143px; */
+	    position: relative;
+	     bottom: 0px;
+	     float: none;
+	}
+
+	/*++++++++footer++++++++*/
+
+	footer form {
+	    width: 372px;
+	    margin: 0 auto;
+	    float: none !important;
+	}
+
+	footer address 
+	{
+		display: none;
+	}
+}
