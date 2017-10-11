@@ -19,7 +19,7 @@ html { overflow-x: hidden; }
 	/*background:orange;*/
 	background-image: url(../img/contact_part_1.png) , url(../img/hi.png) ,  url(../img/services.png) , url(../img/work_part_1.png) ;;
     background-repeat: no-repeat;
-    background-position: bottom right , 0px -215px , 208px 730px , 0px 2473px;
+    background-position: bottom right , 0px 5px , 207px 770px, 0px 2554px;
 }
 
 .left
@@ -121,13 +121,13 @@ header ul li:last-child
 
 header #about_me::after {
     content: "";
-    width: 204px;
-    height: 1322px;
+    width: 200px;
+    height: 1099px;
     display: inline-block;
     position: absolute;
     background: url(../img/hi_part_2.png);
-    top: -337px;
-    left: -204px;
+    top: -117px;
+    left: -200px;
 }
 
 #about_me h2
@@ -241,14 +241,14 @@ header #about_me #slider_1:before
 
 #wedding_photography::after {
     content: "";
-    width: 317px;
+    width: 328px;
     height: 372px;
     background: url(../img/services_part_2.png);
     background-repeat: no-repeat;
     display: inline-block;
     position: absolute;
-    top: -113px;
-    right: -308px;
+    top: -167px;
+    right: -324px;
 }
 
 #wedding_photography h3 {
@@ -371,14 +371,15 @@ header #about_me #slider_1:before
 
 #portfolio::before {
     content: "";
-    width: 305px;
-    height: 307px;
+    width: 315px;
+    height: 299px;
     background: url(../img/work_part_2.png);
     display: inline-block;
     position: absolute;
-    top: -163px;
-    left: -305px;
+    top: -78px;
+    left: -315px;
 }
+
 #portfolio h2
 {
 	font-size: 48px;
@@ -682,16 +683,15 @@ footer address
 	margin-top: 157px;
 }
 
-footer:after
-{
-	content: "";
-	width: 400px;
-	height: 178px;
-	background-image: url(../img/contact_part_2.png);
+footer:after {
+    content: "";
+    width: 400px;
+    height: 178px;
+    background-image: url(../img/contact_part_2.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     display: inline-block;
-    right: -399px;
+    right: -377px;
     position: absolute;
     bottom: 1.5px;
 }
