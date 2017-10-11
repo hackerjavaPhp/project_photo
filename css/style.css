@@ -19,7 +19,7 @@ html { overflow-x: hidden; }
 	/*background:orange;*/
 	background-image: url(../img/contact_part_1.png) , url(../img/hi.png) ,  url(../img/services.png) , url(../img/work_part_1.png) ;;
     background-repeat: no-repeat;
-    background-position: bottom right , 0px 5px , 207px 770px, 0px 2554px;
+    background-position: bottom right , 0px 0px , 207px 770px, 0px 2554px;
 }
 
 .left
@@ -150,15 +150,15 @@ header #about_me::after {
 	/*background-color: red;*/
 }
 
-#about_me .link::after
-{
-	content: "";
-	position: absolute;
-	width: 25px;
-	height: 104px;
-	background:url(../img/line.png);
-	bottom: -110px;
-	left: 222.5px;
+header #about_me::after {
+    content: "";
+    width: 200px;
+    height: 1099px;
+    display: inline-block;
+    position: absolute;
+    background: url(../img/hi_part_2.png);
+    top: -122px;
+    left: -200px;
 }
 
 #about_me .link button
