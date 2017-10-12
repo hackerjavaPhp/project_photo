@@ -103,6 +103,18 @@ header ul li
 	list-style-type: none;
 }
 
+header ul li a
+{
+	color: black;
+	text-decoration: none;
+}
+
+header ul li a:hover
+{
+	border-bottom: 2px solid black;
+	transition: all .1s;
+}
+
 header ul li:last-child
 {
 	margin-right:0px;
@@ -163,12 +175,20 @@ header #about_me::after {
 
 #about_me .link button
 {
-	background-color: #fff;
+	background-color: rgba(255,255,255,0);
 	width: 155px;
 	height: 50px;
 	border: 1px solid black;
 	font-size: 16px;
 	margin-right: 32px;
+}
+
+#about_me .link button:hover
+{
+	background: black;
+	color: white;
+	transition: all .5s;
+	cursor: pointer;
 }
 
 #about_me .link a
@@ -297,6 +317,15 @@ header #about_me #slider_1:before
 	margin-right: 32px;
 }
 
+#wedding_photography button:hover
+{
+	background: black;
+	color: white;
+	transition:all .5s;
+	cursor: pointer;
+}
+
+
 #wedding_photography .link_2 a
 {
 	color: black;
@@ -352,6 +381,14 @@ header #about_me #slider_1:before
 	border: 1px solid black;
 	font-size: 16px;
 	margin-right: 32px;
+}
+
+#events button:hover
+{
+	background: black;
+	color: white;
+	transition: all .5s;
+	cursor: pointer;
 }
 
 #events .link_2 a
@@ -574,6 +611,11 @@ header #about_me #slider_1:before
 	margin-right: 32px;
 }
 
+#reviews #about_me .link button:hover
+{
+	background: black;
+}
+
 #reviews #about_me .link a
 {
 	color: black;
@@ -675,6 +717,15 @@ footer form button
 	border: 1px solid black;
 	padding:10px 15px;
 	font-size: 18px;
+}
+
+footer form button:hover
+{
+	background: #2CB54B;
+	color: white;
+	transition: all .5s;
+	border: 1px solid #2CB54B;
+	cursor: pointer;
 }
 
 footer address
