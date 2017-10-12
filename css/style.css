@@ -222,6 +222,8 @@ header #about_me #slider_1:before
 {
 	margin:0px 18px;
 	margin-top:21px;
+	width: 444px;
+	height: 229px;
 }
 
 #about_me #slider_1 .beack,
@@ -235,6 +237,7 @@ header #about_me #slider_1:before
     background-image: url(../img/beack.png);
     background-repeat: no-repeat;
     background-position: 16px 10px;
+    cursor: pointer;
 }
 
 #about_me #slider_1 .next
